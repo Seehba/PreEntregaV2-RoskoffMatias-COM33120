@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div>
+            <h1>Nombre del Restaurante</h1>
+        </div>
+        
+        <nav class="Menu">
+            <div class="Inicio1">
+                <ul>
+                    <li class="Inicio"><a href="../index.html">Inicio</a></li>
+                </ul>
+            </div>
+            <div class="second">
+                <ul>
+                    <li class="Reserv"><a href="./reservaciones.html">Reservaciones</a></li>
+                    <li class="Reseña"><a href="./reseña.html">Reseña</a></li>
+                    <li class="Conocenos"><a href="./Conocenos.html">Conocenos</a></li>
+                    <li class="Contacto"><a href="./contactos.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="mainmenu">
+                <ul>
+                    <li class="Carta"><a href="./menu.html">Menu</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    
+    <h1>Contáctanos</h1>
+
+    <form action="enviar.php" method="get">
+
+        
+    <input type="text" id="nombre" placeholder="Nombre y Apellido*" required>
+    
+
+    <input type="number" name="telefono" id="telefono" placeholder="Teléfono de contacto">
+
+    <input type="email" name="mail" id="mail" placeholder="Correo Electrónico*" required>
+    
+
+    <input type="text" id="local" placeholder="Local*" required>
+    
+    
+ <div>
+    <select name="motivo" id="motivo">
+        <option value="motiv">Motivo de su consulta</option>
+        <option value="AyF">Administración y Finanzas</option>
+        <option value="Sug">Sugerencias</option>
+        </select>
+    </div>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Deje su mensaje"></textarea>
+    
+    <input type="submit" value="Enviar ahora">
+    <input type="reset" value="Borrar todo">
+        
+    </form>
+    
+    <footer>HTML y CSS 2022</footer>
+</body>
+</html>
